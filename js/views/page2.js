@@ -34,10 +34,11 @@ define([
         },
 
         mapDevices: function () {
-
             if (!this._devicesMap) {
                 this._devicesMap = this.enum.devices;
+                console.log(this._devicesMap["galaxy-s5"]);
                 this._devicesMap["samsung-GT-I9300"] = this._devicesMap["galaxy-s5"];
+                this._devicesMap["lg-nexus-5"] = this._devicesMap["galaxy-s5"];
                 this._devicesMap["Apple-iPhone"] = this._devicesMap["iphone-5s"];
 
 
@@ -53,7 +54,6 @@ define([
             this.mapDevices();
             this.model = new DevicesCollection();
             this.super("initialize", [options]);
-
         },
 
         render: function (options) {
@@ -73,7 +73,7 @@ define([
 
                     function _getIconName(deviceData) {
                         var name;
-
+                        debugger;
                         if (me._devicesMap && deviceData && deviceData.manufacturer && deviceData.model) {
                             name = me._devicesMap[[deviceData.manufacturer, deviceData.model].join("-")];
                         }

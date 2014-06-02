@@ -33,11 +33,11 @@
     },
     {
         "serialNumber": "4df763303930cfe3",
-        "model": "GT-I9300",
+        "model": "nexus-5",
         "deviceID": "4df763303930cfe3",
         "osVersion": "16",
         "deviceStatus": "unregistered",
-        "manufacturer": "samsung",
+        "manufacturer": "lg",
         "logicName": null,
         "deviceIP": "192.168.2.110:5000",
         "imei": null,
