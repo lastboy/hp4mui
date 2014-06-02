@@ -68,7 +68,7 @@ define([
                             out += petekCompile({
                                 "icon": (appData.icon || me.enum.DEFAULT_ICON),
                                 title: (appData.name || "NA"),
-                                description: "Description about the application",
+                                description: (appData.description || "Description about the application"),
                                 version: "Version" + appData.version
                             });
 
