@@ -287,7 +287,7 @@ body {
 .samsung-device {
   width: 53px;
   height: 25px;
-  background: url(../images/sprite.png) -46px -32px no-repeat transparent;
+  background: url(../images/sprite.png) -146px -32px no-repeat transparent;
 }
 .windows-device {
   width: 23px;
@@ -306,11 +306,19 @@ body {
   height: 85px;
   background: url(../images/config.png) 0px 0px no-repeat transparent;
 }
+.devices-vital #cpu .image .text {
+  position: relative;
+  top: 90px;
+  left: 17px;
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  font-size: 20px;
+}
 .devices-vital #cpu .toggle {
   position: relative;
-  margin: 0;
+  margin: 55px 0 0 0;
   padding: 0;
   cursor: pointer;
+  z-index: 1000000000000;
 }
 .devices-vital #cpu .toggle .left-circle {
   float: left;
@@ -389,11 +397,19 @@ body {
   height: 85px;
   background: url(../images/config.png) -78px 0px no-repeat transparent;
 }
+.devices-vital #memory .image .text {
+  position: relative;
+  top: 90px;
+  left: 4px;
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  font-size: 20px;
+}
 .devices-vital #memory .toggle {
   position: relative;
-  margin: 0;
+  margin: 55px 0 0 0;
   padding: 0;
   cursor: pointer;
+  z-index: 1000000000000;
 }
 .devices-vital #memory .toggle .left-circle {
   float: left;
@@ -472,11 +488,19 @@ body {
   height: 85px;
   background: url(../images/config.png) -156px 0px no-repeat transparent;
 }
+.devices-vital #log .image .text {
+  position: relative;
+  top: 90px;
+  left: 23px;
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  font-size: 20px;
+}
 .devices-vital #log .toggle {
   position: relative;
-  margin: 0;
+  margin: 55px 0 0 0;
   padding: 0;
   cursor: pointer;
+  z-index: 1000000000000;
 }
 .devices-vital #log .toggle .left-circle {
   float: left;
@@ -555,11 +579,19 @@ body {
   height: 85px;
   background: url(../images/config.png) -234px 0px no-repeat transparent;
 }
+.devices-vital #baterry .image .text {
+  position: relative;
+  top: 90px;
+  left: 10px;
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  font-size: 20px;
+}
 .devices-vital #baterry .toggle {
   position: relative;
-  margin: 0;
+  margin: 55px 0 0 0;
   padding: 0;
   cursor: pointer;
+  z-index: 1000000000000;
 }
 .devices-vital #baterry .toggle .left-circle {
   float: left;
@@ -638,11 +670,19 @@ body {
   height: 85px;
   background: url(../images/config.png) -312px 0px no-repeat transparent;
 }
+.devices-vital #screenshots .image .text {
+  position: relative;
+  top: 90px;
+  left: -11px;
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  font-size: 20px;
+}
 .devices-vital #screenshots .toggle {
   position: relative;
-  margin: 0;
+  margin: 55px 0 0 0;
   padding: 0;
   cursor: pointer;
+  z-index: 1000000000000;
 }
 .devices-vital #screenshots .toggle .left-circle {
   float: left;
@@ -710,6 +750,284 @@ body {
   left: 40px;
 }
 .devices-vital #screenshots .toggle .circle-off {
+  background-color: #c1c1c0;
+}
+.sensors-simulation {
+  width: 100%;
+  position: relative;
+  left: 21%;
+}
+.sensors-simulation #restart {
+  margin: 180px 120px 0 0;
+  float: left;
+}
+.sensors-simulation #restart .image {
+  width: 78px;
+  height: 85px;
+  background: url(../images/config.png) -392px 0px no-repeat transparent;
+}
+.sensors-simulation #restart .image .text {
+  position: relative;
+  top: 90px;
+  left: 10px;
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  font-size: 20px;
+}
+.sensors-simulation #restart .toggle {
+  position: relative;
+  margin: 55px 0 0 0;
+  padding: 0;
+  cursor: pointer;
+  z-index: 1000000000000;
+}
+.sensors-simulation #restart .toggle .left-circle {
+  float: left;
+  width: 37px;
+  height: 32px;
+  background-color: #8bb65c;
+  -webkit-border-radius: 50% 0px 0px 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50% 0px 0px 50%;
+  -moz-background-clip: padding;
+  border-radius: 50% 0px 0px 50%;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #restart .toggle .right-circle {
+  float: left;
+  width: 37px;
+  height: 32px;
+  background-color: #8bb65c;
+  -webkit-border-radius: 0px 50% 50% 0px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0px 50% 50% 0px;
+  -moz-background-clip: padding;
+  border-radius: 0px 50% 50% 0px;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #restart .toggle .switch-circle {
+  position: relative;
+  top: -3px;
+  left: 39px;
+  height: 34px;
+  width: 34px;
+  background-color: #ffffff;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #restart .toggle .text {
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
+  left: 14px;
+}
+.sensors-simulation #restart .toggle .switch-off {
+  top: -3px;
+  left: 1px;
+}
+.sensors-simulation #restart .toggle .text-off {
+  left: 40px;
+}
+.sensors-simulation #restart .toggle .circle-off {
+  background-color: #c1c1c0;
+}
+.sensors-simulation #install {
+  margin: 180px 120px 0 0;
+  float: left;
+}
+.sensors-simulation #install .image {
+  width: 78px;
+  height: 85px;
+  background: url(../images/config.png) -476px 0px no-repeat transparent;
+}
+.sensors-simulation #install .image .text {
+  position: relative;
+  top: 90px;
+  left: 10px;
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  font-size: 20px;
+}
+.sensors-simulation #install .toggle {
+  position: relative;
+  margin: 55px 0 0 0;
+  padding: 0;
+  cursor: pointer;
+  z-index: 1000000000000;
+}
+.sensors-simulation #install .toggle .left-circle {
+  float: left;
+  width: 37px;
+  height: 32px;
+  background-color: #8bb65c;
+  -webkit-border-radius: 50% 0px 0px 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50% 0px 0px 50%;
+  -moz-background-clip: padding;
+  border-radius: 50% 0px 0px 50%;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #install .toggle .right-circle {
+  float: left;
+  width: 37px;
+  height: 32px;
+  background-color: #8bb65c;
+  -webkit-border-radius: 0px 50% 50% 0px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0px 50% 50% 0px;
+  -moz-background-clip: padding;
+  border-radius: 0px 50% 50% 0px;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #install .toggle .switch-circle {
+  position: relative;
+  top: -3px;
+  left: 39px;
+  height: 34px;
+  width: 34px;
+  background-color: #ffffff;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #install .toggle .text {
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
+  left: 14px;
+}
+.sensors-simulation #install .toggle .switch-off {
+  top: -3px;
+  left: 1px;
+}
+.sensors-simulation #install .toggle .text-off {
+  left: 40px;
+}
+.sensors-simulation #install .toggle .circle-off {
+  background-color: #c1c1c0;
+}
+.sensors-simulation #uninstall {
+  margin: 180px 0 0 28px;
+  float: left;
+}
+.sensors-simulation #uninstall .image {
+  width: 78px;
+  height: 85px;
+  background: url(../images/config.png) -561px 0px no-repeat transparent;
+}
+.sensors-simulation #uninstall .image .text {
+  position: relative;
+  top: 90px;
+  left: 10px;
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  font-size: 20px;
+}
+.sensors-simulation #uninstall .toggle {
+  position: relative;
+  margin: 55px 0 0 0;
+  padding: 0;
+  cursor: pointer;
+  z-index: 1000000000000;
+}
+.sensors-simulation #uninstall .toggle .left-circle {
+  float: left;
+  width: 37px;
+  height: 32px;
+  background-color: #8bb65c;
+  -webkit-border-radius: 50% 0px 0px 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50% 0px 0px 50%;
+  -moz-background-clip: padding;
+  border-radius: 50% 0px 0px 50%;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #uninstall .toggle .right-circle {
+  float: left;
+  width: 37px;
+  height: 32px;
+  background-color: #8bb65c;
+  -webkit-border-radius: 0px 50% 50% 0px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0px 50% 50% 0px;
+  -moz-background-clip: padding;
+  border-radius: 0px 50% 50% 0px;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #uninstall .toggle .switch-circle {
+  position: relative;
+  top: -3px;
+  left: 39px;
+  height: 34px;
+  width: 34px;
+  background-color: #ffffff;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.sensors-simulation #uninstall .toggle .text {
+  font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
+  left: 14px;
+}
+.sensors-simulation #uninstall .toggle .switch-off {
+  top: -3px;
+  left: 1px;
+}
+.sensors-simulation #uninstall .toggle .text-off {
+  left: 40px;
+}
+.sensors-simulation #uninstall .toggle .circle-off {
   background-color: #c1c1c0;
 }
 #page .splash-header {
@@ -854,6 +1172,7 @@ body {
   line-height: 120%;
   padding: 23px 0 0 0;
 }
+.petek-selected,
 .petek:hover,
 a:active,
 a:link,
@@ -917,9 +1236,10 @@ a:visited {
 }
 .flip-toggle {
   position: relative;
-  margin: 0;
+  margin: 55px 0 0 0;
   padding: 0;
   cursor: pointer;
+  z-index: 1000000000000;
 }
 .flip-toggle .left-circle {
   float: left;

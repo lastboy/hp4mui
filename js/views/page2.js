@@ -36,7 +36,6 @@ define([
         mapDevices: function () {
             if (!this._devicesMap) {
                 this._devicesMap = this.enum.devices;
-                console.log(this._devicesMap["galaxy-s5"]);
                 this._devicesMap["samsung-GT-I9300"] = this._devicesMap["galaxy-s5"];
                 this._devicesMap["lg-nexus-5"] = this._devicesMap["galaxy-s5"];
                 this._devicesMap["Apple-iPhone"] = this._devicesMap["iphone-5s"];
@@ -94,7 +93,6 @@ define([
                     function _petekHover(petek) {
 
                         petek.addClass("petek-selected");
-                        console.log(petek.css("top"));
                         if (isNaN(parseInt(petek.css("top"))) || parseInt(petek.css("top")) === 0) {
                                 petek.animate({
                                     top: -80
@@ -189,12 +187,10 @@ define([
                                         petek = $(this).find(".petek");
 
                                     // TODO: First Petek should contain a different listener for creating new app
-                                    if (counter > 0) {
 
-                                        petekclick.on("click", function(){_petekSelected(petek)});
-                                        //petekclick.on("mouseover", function(){_petekHover(petek)});
-                                        //petekclick.on("mouseout", function(){_petekOut(petek)});
-                                    }
+                                    petekclick.on("click", function(){_petekSelected(petek)});
+                                    //petekclick.on("mouseover", function(){_petekHover(petek)});
+                                    //petekclick.on("mouseout", function(){_petekOut(petek)});
 
                                     counter++;
                                 });

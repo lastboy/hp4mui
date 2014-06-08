@@ -1,4 +1,4 @@
-.devices-vital {
+.sensors-simulation {
 
   .settings() {
     margin: 180px 120px 0 0;
@@ -6,66 +6,13 @@
   }
 
   width: 100%;
+  position:relative;
+  left: 21%;
 
-  #cpu {
+  #restart {
     .settings();
     .image {
-      .config(78, 85, 0, 0);
-
-      .text {
-        position: relative;
-        top: 90px;
-        left: 17px;
-        font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
-        font-size: 20px;
-      }
-    }
-    .toggle {
-      .flip-toggle();
-    }
-  }
-  #memory {
-    .settings();
-    .image {
-      .config(78, 85, -78, 0);
-
-      .text {
-        position: relative;
-        top: 90px;
-        left: 4px;
-        font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
-        font-size: 20px;
-      }
-
-    }
-    .toggle {
-      .flip-toggle();
-    }
-  }
-
-  #log {
-    .settings();
-    .image {
-      .config(78, 85, -156, 0);
-
-      .text {
-        position: relative;
-        top: 90px;
-        left: 23px;
-        font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
-        font-size: 20px;
-      }
-    }
-    .toggle {
-      .flip-toggle();
-    }
-  }
-
-  #baterry {
-    .settings();
-    .image {
-      .config(78, 85, -234, 0);
-
+      .config(78, 85, -392, 0);
       .text {
         position: relative;
         top: 90px;
@@ -79,16 +26,32 @@
     }
   }
 
-  #screenshots {
-    margin: 180px 0 0 28px;
-    float: left;
+  #install {
+    .settings();
     .image {
-      .config(78, 85, -312, 0);
-
+      .config(78, 85, -476, 0);
       .text {
         position: relative;
         top: 90px;
-        left: -11px;
+        left: 10px;
+        font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
+        font-size: 20px;
+      }
+    }
+    .toggle {
+      .flip-toggle();
+    }
+  }
+
+  #uninstall {
+    margin: 180px 0 0 28px;
+    float: left;
+    .image {
+      .config(78, 85, -561, 0);
+      .text {
+        position: relative;
+        top: 90px;
+        left: 10px;
         font-family: "HPSimplifiedLight", "Trebuchet MS", Arial;
         font-size: 20px;
       }

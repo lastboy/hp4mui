@@ -62,7 +62,10 @@ define([
                     "#memory",
                     "#log",
                     "#baterry",
-                    "#screenshot"
+                    "#screenshots",
+                    "#restart",
+                    "#install",
+                    "#uninstall"
                 ]);
             }
 
