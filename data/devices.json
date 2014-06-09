@@ -1,6 +1,7 @@
 [
     {
         "serialNumber": "4df763303930cfe3",
+        "displayName" : "Galaxy Note",
         "model": "GT-I9300",
         "deviceID": "4df763303930cfe3",
         "osVersion": "16",
@@ -13,11 +14,12 @@
         "agentVersion": "1.0",
         "deviceType": "real",
         "macAddress": null,
-        "osType": "lg"
+        "osType": "Android"
     },
     {
         "serialNumber": "AE4371E6-015A-4578-BE26-7368A6C058FC",
         "model": "iPhone",
+        "displayName" : "iPhone 5s",
         "deviceID": "6e3f786442e78a28779c2aee6bab67ce861bd9f9",
         "osVersion": "iPhone OS 7.0.4",
         "deviceStatus": "registered",
@@ -29,11 +31,13 @@
         "agentVersion": "1.0",
         "deviceType": "real",
         "macAddress": null,
-        "osType": "samsung"
+        "osType": "iOS"
     },
     {
         "serialNumber": "4df763303930cfe3",
         "model": "nexus-5",
+        "infoicon" : "info-icon-ready",
+        "displayName" : "nexus 5",
         "deviceID": "4df763303930cfe3",
         "osVersion": "16",
         "deviceStatus": "unregistered",
@@ -45,11 +49,12 @@
         "agentVersion": "1.0",
         "deviceType": "real",
         "macAddress": null,
-        "osType": "ANDROID"
+        "osType": "Android"
     },
     {
         "serialNumber": "AE4371E6-015A-4578-BE26-7368A6C058FC",
-        "model": "iPhone",
+        "model": "ipad",
+        "displayName" : "iPad",
         "deviceID": "6e3f786442e78a28779c2aee6bab67ce861bd9f9",
         "osVersion": "iPhone OS 7.0.4",
         "deviceStatus": "registered",
@@ -61,11 +66,47 @@
         "agentVersion": "1.0",
         "deviceType": "real",
         "macAddress": null,
-        "osType": "IOS"
+        "osType": "iOS"
     },
     {
         "serialNumber": "4df763303930cfe3",
         "model": "GT-I9300",
+        "displayName" : "Galaxy S5",
+        "deviceID": "4df763303930cfe3",
+        "osVersion": "16",
+        "deviceStatus": "unregistered",
+        "manufacturer": "samsung",
+        "logicName": null,
+        "deviceIP": "192.168.2.110:5000",
+        "imei": null,
+        "infoicon" : "info-icon-ready",
+        "connectionType": null,
+        "agentVersion": "1.0",
+        "deviceType": "real",
+        "macAddress": null,
+        "osType": "Android"
+    },
+    {
+        "serialNumber": "AE4371E6-015A-4578-BE26-7368A6C058FC",
+        "model": "xperia",
+        "displayName" : "Xperia z2",
+        "deviceID": "6e3f786442e78a28779c2aee6bab67ce861bd9f9",
+        "osVersion": "16",
+        "deviceStatus": "unregistered",
+        "manufacturer": "sony",
+        "logicName": null,
+        "deviceIP": "192.168.2.110:5000",
+        "imei": null,
+        "connectionType": null,
+        "agentVersion": "1.0",
+        "deviceType": "real",
+        "macAddress": null,
+        "osType": "Android"
+    },
+    {
+        "serialNumber": "4df763303930cfe3",
+        "model": "GT-I9300",
+        "displayName" : "Galaxy S4",
         "deviceID": "4df763303930cfe3",
         "osVersion": "16",
         "deviceStatus": "unregistered",
@@ -77,15 +118,16 @@
         "agentVersion": "1.0",
         "deviceType": "real",
         "macAddress": null,
-        "osType": "ANDROID"
+        "osType": "Android"
     },
     {
         "serialNumber": "AE4371E6-015A-4578-BE26-7368A6C058FC",
-        "model": "iPhone",
+        "model": "windows",
+        "displayName" : "Windows Phone",
         "deviceID": "6e3f786442e78a28779c2aee6bab67ce861bd9f9",
         "osVersion": "iPhone OS 7.0.4",
         "deviceStatus": "registered",
-        "manufacturer": "Apple",
+        "manufacturer": "windows",
         "logicName": null,
         "deviceIP": "192.168.2.161:12345",
         "imei": null,
@@ -93,38 +135,6 @@
         "agentVersion": "1.0",
         "deviceType": "real",
         "macAddress": null,
-        "osType": "IOS"
-    },
-    {
-        "serialNumber": "4df763303930cfe3",
-        "model": "GT-I9300",
-        "deviceID": "4df763303930cfe3",
-        "osVersion": "16",
-        "deviceStatus": "unregistered",
-        "manufacturer": "samsung",
-        "logicName": null,
-        "deviceIP": "192.168.2.110:5000",
-        "imei": null,
-        "connectionType": null,
-        "agentVersion": "1.0",
-        "deviceType": "real",
-        "macAddress": null,
-        "osType": "ANDROID"
-    },
-    {
-        "serialNumber": "AE4371E6-015A-4578-BE26-7368A6C058FC",
-        "model": "iPhone",
-        "deviceID": "6e3f786442e78a28779c2aee6bab67ce861bd9f9",
-        "osVersion": "iPhone OS 7.0.4",
-        "deviceStatus": "registered",
-        "manufacturer": "Apple",
-        "logicName": null,
-        "deviceIP": "192.168.2.161:12345",
-        "imei": null,
-        "connectionType": null,
-        "agentVersion": "1.0",
-        "deviceType": "real",
-        "macAddress": null,
-        "osType": "IOS"
+        "osType": "windows"
     }
 ]

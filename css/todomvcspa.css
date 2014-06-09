@@ -273,6 +273,13 @@ body {
   height: 25px;
   background: url(../images/sprite.png) -2px -32px no-repeat transparent;
 }
+
+.sony-device {
+    width: 55px;
+    height: 25px;
+    background: url(../images/sprite.png) -2px -32px no-repeat transparent;
+}
+
 .apple-device,
 .ios-device {
   width: 22px;
@@ -1125,6 +1132,13 @@ body {
   float: right;
   margin: 6px -31px 0px 0px;
   background: url(../images/sprite.png) -31px 0px no-repeat transparent;
+}
+.petek .info-icon-ready {
+    width: 23px;
+    height: 23px;
+    float: right;
+    margin: 6px -31px 0px 0px;
+    background: url(../images/sprite.png) -166px 0px no-repeat transparent;
 }
 .petek .icon {
   width: 116px;
