@@ -33,7 +33,8 @@ define([
                 title: "<div class='new-app'>Add New App</div>",
                 description: "",
                 version: "",
-                navigateto: "javascript:void(0)"
+                navigateto: "javascript:void(0)",
+                "infoicon" : "info-icon"
             }
         },
 
@@ -64,12 +65,12 @@ define([
 
                     if (appsData) {
                         appsData.forEach(function (appData) {
-
                             out += petekCompile({
                                 "icon": (appData.icon || me.enum.DEFAULT_ICON),
                                 title: (appData.name || "NA"),
                                 description: (appData.description || "Description about the application"),
-                                version: "Version" + appData.version
+                                version: "Version" + appData.version,
+                                "infoicon" : (appData.infoicon || "info-icon")
                             });
 
                         });

@@ -167,7 +167,6 @@ define([
 
                     if (appsData) {
                         appsData.forEach(function (deviceData) {
-                            debugger;
                             out += petekCompile({
                                 "icon": _getIconName(deviceData),
                                 title: (deviceData.displayName || "NA"),
